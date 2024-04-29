@@ -10,9 +10,9 @@ def terms():
 def service():
     return render_template('service.html')
 
-@app.route('/info/age', methods=['GET', 'POST'])
+@app.route('/info/marketing', methods=['GET', 'POST'])
 def age():
-    return render_template('age.html')
+    return render_template('marketing.html')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=80)
+    app.run(debug=True, host='0.0.0.0', port=80)

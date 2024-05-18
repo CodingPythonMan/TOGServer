@@ -14,5 +14,11 @@ def service():
 def age():
     return render_template('marketing.html')
 
+# Chat Route
+#@app.route("/prompt", methods=['POST'])
+#def prompt():
+#    """ChatGee Prompt Route"""
+#    return jsonify(Tog.prompt_received(request.get_json()))
+
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0', port=80)

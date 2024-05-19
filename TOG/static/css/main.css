@@ -5,7 +5,8 @@
 
 pre {
     font-family: 'Pretendard';
-    font-size: 3vw;
+    font-size: 4vw;
+    white-space: pre-wrap; 
 }
 
 body {
